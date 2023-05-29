@@ -1,0 +1,19 @@
+h2{ /* Ceci est un sélecteur d'élément CSS permettant de modifier le titre de niveau 2*/
+  text-align: center ;
+  color : blue
+}
+
+p{ /* Ceci est un sélecteur d'élément CSS permettant de modifier le texte du paragraphe et de centrer le texte*/
+  font-size: 17px;
+  text-align: center
+}
+div > img { /* Ceci est un selecteur d'élément fils et donc d'enfant*/
+	margin-left: 700px;
+    margin-right: auto;
+    width: 15em
+}
+fieldset a{ /* Ceci est un selecteur de descendant direct*/
+  color: blue  ;
+  margin-left: 70px;
+  margin-right: auto;
+}

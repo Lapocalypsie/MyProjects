@@ -1,0 +1,28 @@
+<?xml version="1.0"encoding="UTF-8"?>
+<!DOCTYPE game_selection SYSTEM "societygame.dtd">
+<jeu>
+	<description>
+		<title>Citadelle</title>
+		<subtitle>Presentation du jeu: Citadelle </subtitle>
+		<illustration>
+			<img src = "Citadelle.jpg" alt ="Citadelle" />
+		</illustration>
+		<rating>"3"</rating>
+		<time> hour = "1" minutes = "30" secondes = "0"</time>
+		<gender>strategy</gender>
+		<playerssnumber> min = "2" max = "8" </playerssnumber>
+	</description>
+	<Statistique>
+		<fabricant>Bruno Faidutti</fabricant>
+		<price>15 euros</price>
+	</statistique>
+	<rules>
+Citadelles est un jeu de bluff, d’intrigues et de stratégie. 
+Les joueurs amassent de l’or qu’ils dépensent ensuite pour bâtir les quartiers qui composent leur cité médiévale.
+ À la fin de la partie, le joueur qui a constitué la plus belle, la plus grande, la plus prestigieuse cité est vainqueur.
+Citadelles est un jeu de stratégie qui se déroule dans un monde médiéval fantastique. 
+Vous devez construire la plus grande et la plus belle ville du monde,
+ avec différentes cartes qui représentent les quartiers: Université, Château, Cathédrale etc.
+	</rules>
+	<testimony>This game has really been a heart stroke</testimony>
+</jeu>

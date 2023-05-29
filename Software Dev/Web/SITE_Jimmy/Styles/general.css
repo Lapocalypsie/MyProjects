@@ -1,0 +1,41 @@
+body /* Ici On a des sélecteurs d'éléments HTML */
+{
+    background-color: whitesmoke
+}
+
+h1 
+{
+    color: red ; 	
+	text-align : center ;
+}
+
+table,th,tr,td
+{
+  border: 5px solid black;
+  border-collapse: collapse;
+  font-size: 25px;
+  border-width: medium ;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+th
+{
+  text-align:center;
+}
+
+strong
+{
+  font-style : italic ;
+}
+
+p::first-letter { /* Ici on met on modifie le texte de la premier lettre de chaque paragraphe, c'est un pseudo-éléments*/
+  color: red;
+  font-size: 130%;
+}
+
+/* Ici on met on rouge les qui vont être cliqué, c'est un pseudo-class*/
+a:hover 
+{
+    color : red;	
+}

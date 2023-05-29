@@ -1,0 +1,9 @@
+/* Ceci est un sélecteur d'élément CSS permettant de modifier le texte du tableau synoptic*/
+p 
+{
+  text-align : center ;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2em ;
+}
+
+

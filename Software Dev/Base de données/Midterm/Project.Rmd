@@ -1,0 +1,228 @@
+---
+title: "Midterm project: Analysis on unemployment"
+author: "Jimmy Rasolosoa"
+output:
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(kableExtra)
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(MASS) 
+library(reshape2) 
+library(reshape)
+library(ggrepel)
+library(forcats)
+library(xtable)
+#load more packages here as necessary
+```
+
+```{r}
+#Import the Data 
+
+unemployment_data <- read.csv("unemployment.csv")
+```
+
+
+```{r}
+cleared_data <- unemployment_data %>%
+  mutate(ASixteenNotActiveDuty = gsub(",", "", Total.Civilian.Non.Institutional.Population.in.State.Area)) %>%
+  mutate(TotalLaborForce = gsub(",", "", Total.Civilian.Labor.Force.in.State.Area)) %>%
+  mutate(EemployemntSA = gsub(",", "", Total.Employment.in.State.Area)) %>%
+  mutate(UemployemntSA = gsub(",", "", Total.Unemployment.in.State.Area)) %>%
+  mutate(ASixteenNotActiveDuty = as.numeric(ASixteenNotActiveDuty))%>%
+  mutate(TotalLaborForce = as.numeric(TotalLaborForce))%>%
+  mutate(EemployemntSA = as.numeric(EemployemntSA))%>%
+  mutate(UemployemntSA = as.numeric(UemployemntSA))
+#We are looking at missing data in the divers columns   
+```
+
+# Introduction
+
+*Case study of American employment from 1976 to 2022* 
+
+In this midterm project, we have studied how the employment rate has evolved during these last 46 years. 
+
+In the first place, we will have a global view of how employment has evolved from 1976 to 2022. Afterward, we will compare this evolution with a single state and see if the pattern noticed previously is in accordance with the state one. 
+We will then emit a hypothesis on why such trends have happened and try to confirm them with more data study. 
+We will then conclude and give action to take after the analysis of the data given. 
+
+
+# Results
+
+***Overview study of how improvement has evolved throughout the last 46 years***
+
+```{r}
+#Looking at data 
+
+#Studying the evolution of employment throghout 46 years with a 10 years span
+
+EvolutionYears <- cleared_data %>%
+  na.omit() %>%
+  filter(Year == 1976 | Year == 1986 | Year == 1996 | Year == 2006 | Year == 2016 | Year == 2022) %>%
+  group_by(Year) %>%
+  summarize(Avg_employment = mean(EemployemntSA), 
+            Avg_unemployment = mean(UemployemntSA))
+
+EvolutionYears %>%
+  ggplot(aes(x = Year)) +
+  geom_col(aes(y = Avg_employment, fill = "Employment"), position = "dodge", color = "cyan") +
+  geom_col(aes(y = Avg_unemployment, fill = "Unemployment"), position = "dodge", color = "red") +
+  scale_fill_manual(values = c("Employment" = "cyan", "Unemployment" = "red")) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Evolution of the number of Employment and Unemployment 
+       \nthroughout 46 years span with 10 years differences in US",
+       x = "Year", y = "Average Number of : ") +
+  theme_gray()
+
+```
+In this bar chart, we can notice that the Average Number of employment is gradually increasing going from under 2,000,000 Americans being unemployed to over 3,000,000 in 2022. On the other side, it seems that the average number of unemployment is stabilized and doesn't increase or decreased drastically throughout these years. It is always a good indication that a country is progressing when most of the citizens of this country work. 
+
+***It would be interesting to compare this graph to a single state. We will do so with the State of Vermont.***
+
+```{r}
+#Studying the evolution of employment throghout 46 years with a 10 years span in a specific state 
+
+EvolutionYearsState <- cleared_data %>%
+  na.omit() %>%
+  filter(Year == 1976 | Year == 1986 | Year == 1996 | Year == 2006 | Year == 2016 | Year == 2022 & State.Area == "Vermont") %>%
+  group_by(Year) %>%
+  summarize(Avg_employment = mean(EemployemntSA), 
+            Avg_unemployment = mean(UemployemntSA))
+
+EvolutionYearsState %>%
+  ggplot(aes(x = Year)) +
+  geom_col(aes(y = Avg_employment, fill = "Employment"), position = "dodge", color = "cyan") +
+  geom_col(aes(y = Avg_unemployment, fill = "Unemployment"), position = "dodge", color = "red") +
+  scale_fill_manual(values = c("Employment" = "cyan", "Unemployment" = "red")) +
+  scale_y_continuous(labels = comma) +
+  labs(title = "Evolution of the number of Employment and Unemployment 
+       \nthroughout 46 years span with 10 years differences in Vermont",
+       x = "Year", y = "Average Number of : ")+
+  theme_gray()
+```
+After this graph study, we can conclude that the State of Vermont is following America's trend of an ongoing average 
+number of employees throughout the years. Later on, we will see that the State of Vermont is one of the last 3 States for 
+the average number of employment in America. Knowing this, we can presumably assume that the remaining state does follow the same trend. We notice that the year 2022 is much more smaller, this is probably due to a lack of data compared to the other years. 
+
+***The question we have to ask ourselves is: Where does the increase of the average number of employment come from in America ?***
+
+To answer this question, we can emit the hypothesis that more people are coming to America and, therefore more employment are created and, more people are being hired. 
+
+The following graph is a study on the evolution of Total Force labor against the average employment.
+
+```{r}
+
+#Studying the evolution of employment according to the forceLabor 46 years with a 10 years span
+
+# Create separate data frames for each variable
+EvolutionYearsFL <- cleared_data %>%
+  na.omit() %>%
+  filter(Year == 1976 | Year == 1986 | Year == 1996 | Year == 2006 | Year == 2016 | Year == 2022 ) %>%
+  group_by(Year) %>%
+  summarize(Avg_employment = mean(EemployemntSA), 
+            Avg_ForceLabor = mean(TotalLaborForce),
+            TotalLaborForce1 = mean(TotalLaborForce))
+
+EvolutionYearsFL %>% 
+  ggplot(aes(x= Year))+
+  geom_line(aes(y=Avg_employment, color = "Average Employment "), size = 1.0)+
+  geom_line(aes(y=Avg_ForceLabor, color = "Average Force Labor"), size = 1.2)+
+  ggtitle("Evolution of Employment commpared to ForceLabor over the years in the US") +
+  xlab("Year (~ 10 years span)") + 
+  ylab("Total Labor Force")+
+  scale_y_continuous(labels = comma) 
+```
+
+Our hypothesis seems correct and the average Force Labor is increasing at the same rate as the average employment. 
+There might be other solutions or explanations for this increase in average employment but to be completely sure, other studies have to be made. 
+
+***One other study that would be interesting to look upon is if there is a specific month where the average employment is greater or smaller than the others.***
+
+If any trend is noticed, there might be an explanation for why a certain month is better for employment. 
+
+```{r}
+ProfilicMonth <- cleared_data %>% 
+  na.omit() %>%  
+  group_by(Month) %>%
+  summarise(Avg_rate_E = mean(Percent.....of.Labor.Force.Employed.in.State.Area), 
+            Avg_rate_U = mean(Percent.....of.Labor.Force.Unemployed.in.State.Area)) 
+
+ProfilicMonth <- ProfilicMonth %>%
+  mutate(Month = as.numeric(Month),
+         NewMonth = factor(Month, levels = 1:12,
+                           labels = c("January", "February", "March", "April", "May", "June",
+                                      "July", "August", "September", "October", "November", "December")))
+ProfilicMonth %>%
+  dplyr::select(NewMonth,Avg_rate_E,Avg_rate_U)%>%
+  kbl(digits = 2,
+      col.names = c("Month","Percentage of employment","Percentage of unemployment"),
+      caption ="Percentage of employment and unemployment according to Month") %>%
+  kable_styling()%>%
+  column_spec(1, color="Blue")
+
+```
+
+The result of this study is that there are no noticeable changes for a particular month. Each month has an average of 61,5 % of rate employment. Therefore, it does not matter wherever a summer season is more propitious for employment than a winter one.
+
+
+We have so far studied the evolutions of employment for months and have compared it with the total Labor Force. 
+
+***Now it would be interesting and useful to see which are the best states for employment and which are the worst.*** 
+
+The following graph represents all states and is compared to the average number of state employment. For clarity's sake, the name of the state and the legend associated with it have been removed and only the name of the 3 best states and the 3 worsts are displayed.
+
+```{r}
+BestStates <- cleared_data %>% 
+  na.omit() %>%  
+  group_by(State.Area) %>%
+  summarize(StateEmployment = mean(EemployemntSA)) %>%
+  arrange(-StateEmployment)
+
+labels <- BestStates %>%
+  filter(State.Area %in% c("California", "Texas", "New York", "Vermont", "Alaska", "Wyoming"))
+
+ggplot(data = BestStates, aes(x = State.Area, y = StateEmployment)) + 
+  geom_point(aes(color = State.Area, size = StateEmployment), position = "jitter", alpha = 0.5) +
+  ggtitle("Repartition of Employment in different States throughout 46 years") + 
+  xlab("State Area") +
+  ylab("Mean of total State Employment") +
+  scale_y_continuous(labels = comma) +
+  theme(legend.position = "none", axis.text.x = element_blank(), axis.ticks.x = element_blank())+
+  geom_label_repel(aes(label = State.Area), data = labels)
+
+```
+
+We can comprehend thanks to this graph that California, Texas, and the states of New York are the 3 States that have the highest average number of employment whereas Vermont, Alaska, and Wyoming are the 3 States that have the least average number of employees. It would be interesting to investigate further why the State of California has 5,000,000 more average employment than Texas. Is it only a data error or are there patterns and trends or actions that the State of California takes that create more employment than the other state? 
+
+
+**# Conclusion**
+
+In conclusion of this study, we can affirm that America has known growth in its average number of employees over 46 years. The average unemployment has remained the same. This is an excellent indication that the country is steadfastly growing and developing. The states in the country seem to follow the same trend even though some states have significantly more average employment than others. 
+The time of the month does not affect the average number of employment. 
+
+To expand this study and to help the country in its progression, it would be interesting to have a data study on the State of California and why this state creates much more employment than the others, and if this trend is continuing or if there is a decreasing in the Californian state?
+
+
+
+
+
+**#References**
+
+Statology. (n.d.). pivot_longer in R: A Beginner’s Guide. Retrieved from https://www.statology.org/pivot_longer-in-r/
+
+R Core Team. (2019). nrow(): Number of Rows of a Matrix or Data Frame in R (Version 3.6.2) [Computer software manual]. Retrieved from https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/nrow
+
+Selosse, M. (n.d.). ggplot2 Axis Ticks: A Guide to Customize Tick Marks and Labels. STHDA. Retrieved from http://www.sthda.com/english/wiki/ggplot2-axis-ticks-a-guide-to-customize-tick-marks-and-labels
+
+Statology. (n.d.). How to Fix “Error in select(): unused arguments” in dplyr. Retrieved from https://www.statology.org/dplyr-error-in-select-unused-arguments/
+
+Hellmann, J. (2018, May 23). California created nearly 19 percent of new US jobs in January. The Hill. Retrieved from https://thehill.com/homenews/state-watch/3894195-california-created-nearly-19-percent-of-new-us-jobs-in-january/

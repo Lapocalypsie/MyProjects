@@ -1,0 +1,56 @@
+Objectives for unemployment data: 
+
+- How has the unemployment evolved trhoughout the last 20 years. Taking 5 years and see evolutions 
+- Does a state match the evolution of the US employment rates? 
+- Compare total employment against 
+- Does the month influence employment rates ?
+- Does the state influence employment rates ? 
+
+What is the difference between the groups? 
+What is happening over time? 
+How are two variables related? 
+What are the "Top 10"? What are the "Bottom 10"?
+What summary statistics could you calculate? Mean? Median? Min? Max? Variance?
+
+
+What I need to do: 
+
+I want a mean table for each year instead of having data for each month
+
+setosa_data %>%
+  arrange(-Sepal.Length)%>%
+  kbl(digits = 2, 
+      col.names = c("Sepal Length","Sepal Withd", "Petal Length", "Petal Withd"),
+      caption ="Setosa characteristics according to Length and Withd") %>%
+  kable_styling()%>%
+    column_spec(1, color="#E0B0FF")
+    
+    table1 %>%
+  kbl(digits = 2, 
+      col.names = c("Species","Sepal Minimal Lenght", "Average Sepal Width", "Maximum Sepal Lenght"),
+      caption ="Iris Species Minimal and Maximum Lenght with average Width") %>%
+  kable_styling() %>%
+      column_spec(1, bold = T)
+      
+      
+      
+      BestStates %>%
+  slice(1:10)%>%
+  ggplot(aes(x = reorder(State.Area, -StateEmployemt), y = StateEmployemt)) +
+  geom_bar(stat = "identity", fill = "#32CD32") + 
+  scale_y_continuous(labels = comma) +
+  ylab("Mean of Employment") + 
+  xlab("State/Area") + 
+  ggtitle("Top 3 and Bottom 3 States based on Employment Rate") +
+  theme_minimal()
+
+BestStates %>%
+  slice((n() - 2):n()) %>%
+  ggplot(aes(x = reorder(State.Area, -StateEmployemt), y = StateEmployemt)) +
+  geom_bar(stat = "identity", fill = "red") + 
+  scale_y_continuous(labels = comma) +
+  scale_x_continuous(labels = comma) +
+  ylab("Mean of Employment") + 
+  xlab("State/Area") + 
+  ggtitle("Bottom 3 States based on Employment Rate") +
+  theme_minimal()

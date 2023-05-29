@@ -1,0 +1,20 @@
+ol{ 
+color: blue;
+list-style : none ;
+font-size : 30px;
+}
+
+ul li{
+	font-size: 22px;
+	list-style-type: circle;
+	width:75%;
+	margin:auto;
+	color : red	;
+  }
+  
+body
+{
+  border: solid
+}
+
+/*Tout ces sélecteurs sont des selecteurs d'éléments HTML permettant de modifier une liste */ 

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  <head>
+    <title>Un petit Quizz pour voir si vous avez bien compris les différents jeux?</title>
+    <meta http-equiv = "Content-Type"
+            content = "text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" media="screen" title="formulaire_1"
+          href="../../Styles/formulaire_1.css"/>
+	<link rel="alternate stylesheet" type="text/css" media="screen" title="alternative_style"
+          href="../../Styles/alternative_style.css"/>
+	<script type="application/javascript" src="../../Javascript/Index.js"></script>
+
+  </head>
+  <body>
+
+
+    <h1>Un petit Quizz pour voir si vous avez bien compris les différents jeux?</h1>
+    <form action ="http://voca2.univ-poitiers.fr/~subrenat/cours_web/traitement.php" method ="post"/>
+      <fieldset>
+        <legend>Votre identité</legend>
+
+        <p>
+          <label for ="id_nom">nom</label>
+		  <br/>
+          <input id="id_nom" name="nom" type="text" value = "votre nom"/>
+        </p>
+
+        <p>
+          <label for ="id_prenom">prénom</label>
+		  <br/>
+          <input id="id_prenom" name="prenom" type="text" value = "votre prénom"/>
+        </p> 
+		
+		<p>
+          <label for ="id_connexion"></label>
+		  <br/>
+          <input  id="id_connexion" name="connexion" type="hidden" value =""/>
+		</p>
+		
+      </fieldset>
+
+      <fieldset>
+        <legend>Choisissez les jeux correspondant à la description</legend>
+
+
+        <table>
+          <thead>
+            <tr>
+				<th> </th>
+              <th> Le Saboteur </th>
+              <th> Le Cluedo </th>
+              <th> Citadelle </th>
+			  <th> The mind </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong id="Q1">Temps = 5 minutes</strong></td>
+              <td><input  type ="checkbox" name="Temps = 5 minutes" value="Saboteur"  /></td>
+              <td><input  type ="checkbox" name="Temps = 5 minutes" value="Cluedo"/></td>
+			  <td><input  type ="checkbox" name="Temps = 5 minutes" value="Citadelle"/></td>
+              <td><input  type ="checkbox" name="Temps = 5 minutes" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong id="Q2">Fabricateur du Jeu = Hasbro </strong></td>
+              <td><input  type ="checkbox" name="Fabricateur du Jeu = Hasbro" value="Le Saboteur"/></td>
+              <td><input  type ="checkbox" name="Fabricateur du Jeu = Hasbro" value="Le Cluedo"/></td>
+			  <td><input  type ="checkbox" name="Fabricateur du Jeu = Hasbro" value="Citadelle"/></td>
+              <td><input  type ="checkbox" name="Fabricateur du Jeu = Hasbro" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong id="Q3"> Nombre de joueurs: 4 ou + </strong></td>
+              <td><input  type ="checkbox" name="Nombre de joueurs: 4 ou +" value="Le Saboteur"/></td>
+              <td><input  type ="checkbox" name="Nombre de joueurs: 4 ou +" value="Le Cluedo"/></td>
+			  <td><input  type ="checkbox" name="Nombre de joueurs: 4 ou +" value="Citadelle"/></td>
+              <td><input  type ="checkbox" name="Nombre de joueurs: 4 ou +" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong id="Q4"> Jeu de coopération </strong></td>
+              <td><input type ="checkbox" name="Jeu de coopération" value="Le Saboteur"/></td>
+              <td><input type ="checkbox" name="Jeu de coopération" value="Le Cluedo"/></td>
+			  <td><input type ="checkbox" name="Jeu de coopération" value="Citadelle"/></td>
+              <td><input type ="checkbox" name="Jeu de coopération" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong id="Q5">Jeu solitaire </strong></td>
+              <td><input type ="checkbox" name="Jeu solitaire" value="Le Saboteur"/></td>
+              <td><input type ="checkbox" name="Jeu solitaire" value="Le Cluedo"/></td>
+              <td><input type ="checkbox" name="Jeu solitaire" value="The Mind"/></td>
+              <td><input type ="checkbox" name="Jeu solitaire" value="The Mind"/></td>				  
+			 </tr>
+            <tr>
+              <td><strong id="Q6"> Stratégique </strong></td>
+              <td><input type ="checkbox" name="Stratégique" value="Le Saboteur"/></td>
+              <td><input type ="checkbox" name="Stratégique" value="Le Cluedo"/></td>
+			  <td><input type ="checkbox" name="Stratégique" value="Citadelle"/></td>
+              <td><input type ="checkbox" name="Stratégique" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong id="Q7"> Nombre de joueurs 4 ou - </strong></td>
+              <td><input type ="checkbox" name="Nombre de joueurs 4 ou -" value="Le Saboteur"/></td>
+              <td><input type ="checkbox" name="Nombre de joueurs 4 ou -" value="Le Cluedo"/></td>
+			  <td><input type ="checkbox" name="Nombre de joueurs 4 ou -" value="Citadelle"/></td>
+              <td><input type ="checkbox" name="Nombre de joueurs 4 ou -" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong> Coup de coeur de l'auteur </strong></td>
+              <td><input type ="radio" name="boutton_auteurlike" value="Le Saboteur"/></td>
+              <td><input type ="radio" name="boutton_auteurlike" value="Le Cluedo"/></td>
+			  <td><input type ="radio" name="boutton_auteurlike" value="Citadelle"/></td>
+              <td><input type ="radio" name="boutton_auteurlike" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong id="Q8"> Temps 10 - 20 minutes </strong></td>
+              <td><input type ="checkbox" name="Temps 10 - 20 minutes" value="Le Saboteur"/></td>
+              <td><input type ="checkbox" name="Temps 10 - 20 minutes" value="Le Cluedo"/></td>
+			  <td><input type ="checkbox" name="Temps 10 - 20 minutes" value="Citadelle"/></td>
+              <td><input type ="checkbox" name="Temps 10 - 20 minutes" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong id="Q9"> Temps 20 ou + </strong></td>
+              <td><input type ="checkbox" name="Temps 20 ou +" value="Le Saboteur"/></td>
+              <td><input type ="checkbox" name="Temps 20 ou +" value="Le Cluedo"/></td>
+			  <td><input type ="checkbox" name="Temps 20 ou +" value="Citadelle"/></td>
+              <td><input type ="checkbox" name="Temps 20 ou +" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong> Quel jeu doit-on construire "son empire" </strong></td>
+              <td><input type ="radio" name="boutton_cstructionempire" value="Le Saboteur"/></td>
+              <td><input type ="radio" name="boutton_cstructionempire" value="Le Cluedo"/></td>
+			  <td><input type ="radio" name="boutton_cstructionempire" value="Citadelle"/></td>
+              <td><input type ="radio" name="boutton_cstructionempire" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong> Quel jeu doit-on être en connexion avec son partenaire ? </strong></td>
+              <td><input type ="radio" name="boutton_partenaireconnexion" value="Le Saboteur"/></td>
+              <td><input type ="radio" name="boutton_partenaireconnexion" value="Le Cluedo"/></td>
+			  <td><input type ="radio" name="boutton_partenaireconnexion" value="Citadelle"/></td>
+              <td><input type ="radio" name="boutton_partenaireconnexion" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong> Quel jeu doit-on trouver le meurtrier, la place et les armes ? </strong></td>
+              <td><input type ="radio" name="boutton_cluedo" value="Le Saboteur"/></td>
+              <td><input type ="radio" name="boutton_cluedo" value="Le Cluedo"/></td>
+			  <td><input type ="radio" name="boutton_cluedo" value="Citadelle"/></td>
+              <td><input type ="radio" name="boutton_cluedo" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong> Quel jeu doit-on trouver le trésor ? </strong></td>
+              <td><input type ="radio" name="boutton_saboteur" value="Le Saboteur"/></td>
+              <td><input type ="radio" name="boutton_saboteur" value="Le Cluedo"/></td>
+			  <td><input type ="radio" name="boutton_saboteur" value="Citadelle"/></td>
+              <td><input type ="radio" name="boutton_saboteur" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong> Quel jeux aimez-vous ?  </strong></td>
+              <td><input type ="radio" name="boutton_gamelike_1" value="Le Saboteur"/></td>
+              <td><input type ="radio" name="boutton_gamelike_2" value="Le Cluedo"/></td>
+			  <td><input type ="radio" name="boutton_gamelike_3" value="Citadelle"/></td>
+              <td><input type ="radio" name="boutton_gamelike" value="The Mind"/></td>
+            </tr>
+            <tr>
+              <td><strong> Si vous ne deviez en choisir qu'un seul ?</strong></td>
+              <td><input type ="radio" name="boutton_1gamelike" value="Le Saboteur"/></td>
+              <td><input type ="radio" name="boutton_1gamelike" value="Le Cluedo"/></td>
+			  <td><input type ="radio" name="boutton_1gamelike" value="Citadelle"/></td>
+              <td><input type ="radio" name="boutton_1gamelike" value="The Mind"/></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </fieldset>
+      <fieldset>
+        <legend> Notez les différents jeux découverts </legend>
+
+
+        <ul>
+          <li>
+            <label for ="Saboteur1"></label>
+			<span>Saboteur</span>
+            <select id="Saboteur1" name="Jeu_du_Saboteur">
+              <option value ="notes"> Notes</option>
+			  <option value ="1"> 1 </option>
+              <option value ="2">2</option>
+              <option value ="3">3</option>
+              <option value ="4">4</option>
+              <option value ="5">5</option>
+              <option value ="6">6</option>
+              <option value ="7">7</option>
+              <option value ="8">8</option>
+              <option value ="9">9</option>
+			  <option value ="10">10</option>
+            </select>
+          </li>
+          <li>
+            <label for ="Cluedo1"></label>
+			<span>Le Cluedo</span>
+            <select id="Cluedo1" name="Jeu_du_Cluedo">
+              <option value ="ol"> Notes</option>
+              <option value ="1">1</option>
+              <option value ="2">2</option>
+              <option value ="3">3</option>
+              <option value ="4">4</option>
+              <option value ="5">5</option>
+              <option value ="6">6</option>
+              <option value ="7">7</option>
+              <option value ="8">8</option>
+              <option value ="9">9</option>
+              <option value ="10">10</option>
+            </select>
+          </li>
+          <li>
+            <label for = "Citadelle1"></label>
+			<span>Citadelle</span>
+            <select id="Citadelle1" name="Jeu_du_citadelle">
+              <option value ="dl"> Notes</option>
+			  <option value ="1">1</option>
+              <option value ="2">2</option>
+              <option value ="3">3</option>
+              <option value ="4">4</option>
+              <option value ="5">5</option>
+              <option value ="6">6</option>
+              <option value ="7">7</option>
+              <option value ="8">8</option>
+              <option value ="9">9</option>
+              <option value ="10">10</option>
+            </select>
+          </li>
+          <li>
+            <label for ="The_Mind"></label>
+			<span>The mind</span>
+            <select id="The_Mind" name="Jeu_The_Mind">
+              <option value ="Notes"> Notes</option>
+			  <option value ="1">1</option>
+              <option value ="2">2</option>
+              <option value ="3">3</option>
+              <option value ="4">4</option>
+              <option value ="5">5</option>
+              <option value ="6">6</option>
+              <option value ="7">7</option>
+              <option value ="8">8</option>
+              <option value ="9">9</option>
+              <option value ="10">10</option>
+            </select>
+          </li>
+        </ul>
+
+      </fieldset>
+	  <fieldset>
+		<legend> Dites nous ce dont vous en pensez </legend>
+			<textarea name="textarea" rows="5" cols="30" >Vous pouvez écrire ici.</textarea>
+      </fieldset>
+	  <fieldset>
+        <legend>Gestion du formulaire</legend>
+
+        <div>
+          <button type="reset"> Effacer</button>
+          <button type ="button" onclick="report_miss()"> Vérifier le tableau </button>
+          <button onclick = "displayHour_1()"> Votre résumé récapitulatif --- Boutton Envoie</button>
+        </div>
+
+      </fieldset>
+	  <fieldset>
+			<a href="../Miscellaneous/sitemap.xhtml">Site Map</a>
+			<a href="index.xhtml"> Index </a>
+			<a href="../Miscellaneous/synoptic.xhtml"> Tableau Synoptic </a>
+			<a href="../Collection/Cluedo.html"> Cluedo </a>
+			<a href="../Collection/Citadelle.html"> Citadelle </a>
+			<a href="../Collection/Saboteur.html"> Saboteur </a>
+			<a href="../Collection/The_Mind.html"> The Mind </a>
+		</fieldset>
+  </body>
+</html>

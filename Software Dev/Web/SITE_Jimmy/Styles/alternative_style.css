@@ -1,0 +1,36 @@
+body, div#globalWrapper {
+    background-color: #000000;
+    background-image: none ;
+    color: #00dd00;
+}
+fieldset { 
+    border-color: #004000;
+}
+legend {
+    border: 1px solid #004000; 
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+}
+a { 
+color: #7070FF; 
+} 
+a:visited { 
+color: #9090D0; 
+} 
+
+table { 
+    background-color: #000000;
+    color: #00dd00;
+}
+table th {
+    background-color: #1D1C1C;
+    color: #00dd00;
+}
+table td {
+    background-color: #000000;
+    color: #00dd00; 
+}

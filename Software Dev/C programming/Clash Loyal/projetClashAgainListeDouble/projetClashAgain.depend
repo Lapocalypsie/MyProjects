@@ -1,0 +1,5316 @@
+# depslib dependency file v1.0
+1649007792 source:d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1648820590 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\masdl.h
+	"clashagain.h"
+
+1649349360 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\clashagain.h
+	"zone.h"
+	"types.h"
+
+1649350768 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\zone.h
+	"piles.h"
+
+1649007519 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\piles.h
+	<stdbool.h>
+	"types.h"
+
+1649007456 d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\types.h
+
+1649006823 source:d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\types.c
+	<stdlib.h>
+	<stdio.h>
+	"types.h"
+
+1649007299 source:d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\zone.c
+	"zone.h"
+
+1649007573 source:d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1649350768 source:d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1649350441 source:d:\1yannick\_1_sfa\_2021-2022\s2\l2 projet de prog\projetclashagain\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1649354370 source:c:\users\etusfa\downloads\projetclashagain\projetclashagain\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1641852692 c:\users\etusfa\downloads\projetclashagain\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649352962 c:\users\etusfa\downloads\projetclashagain\projetclashagain\clashagain.h
+	"zone.h"
+	"types.h"
+
+1649354370 c:\users\etusfa\downloads\projetclashagain\projetclashagain\zone.h
+	"piles.h"
+
+1649694905 c:\users\etusfa\downloads\projetclashagain\projetclashagain\piles.h
+	<stdbool.h>
+	"types.h"
+
+1649011058 c:\users\etusfa\downloads\projetclashagain\projetclashagain\types.h
+
+1649354042 source:c:\users\etusfa\downloads\projetclashagain\projetclashagain\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1648824192 c:\users\etusfa\downloads\projetclashagain\projetclashagain\masdl.h
+	"clashagain.h"
+
+1649011394 source:c:\users\etusfa\downloads\projetclashagain\projetclashagain\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1649010424 source:c:\users\etusfa\downloads\projetclashagain\projetclashagain\types.c
+	<stdlib.h>
+	<stdio.h>
+	"types.h"
+
+1649354502 source:c:\users\etusfa\downloads\projetclashagain\projetclashagain\zone.c
+	"zone.h"
+
+1649754135 source:c:\users\tiffa\onedrive\documents\projetclashagain\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1649754135 c:\users\tiffa\onedrive\documents\projetclashagain\piles.h
+	<stdbool.h>
+	"types.h"
+
+1649753988 c:\users\tiffa\onedrive\documents\projetclashagain\types.h
+	<stdbool.h>
+
+1649753915 source:c:\users\tiffa\onedrive\documents\projetclashagain\types.c
+	<stdlib.h>
+	<stdio.h>
+	"types.h"
+
+1649754653 source:c:\users\tiffa\onedrive\documents\projetclashagain\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649753998 c:\users\tiffa\onedrive\documents\projetclashagain\clashagain.h
+	"zone.h"
+	"types.h"
+
+1649754418 c:\users\tiffa\onedrive\documents\projetclashagain\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1649752919 source:c:\users\tiffa\onedrive\documents\projetclashagain\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1649752919 c:\users\tiffa\onedrive\documents\projetclashagain\masdl.h
+	"clashagain.h"
+
+1649752919 source:c:\users\tiffa\onedrive\documents\projetclashagain\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1649754623 source:c:\users\tiffa\onedrive\documents\projetclashagain\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1649757644 source:c:\users\rasol\desktop\projetclashagain\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 c:\users\rasol\desktop\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649760034 c:\users\rasol\desktop\projetclashagain\clashagain.h
+	"zone.h"
+	"types.h"
+
+1649754420 c:\users\rasol\desktop\projetclashagain\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1649754136 c:\users\rasol\desktop\projetclashagain\piles.h
+	<stdbool.h>
+	"types.h"
+
+1649684720 c:\users\rasol\desktop\projetclashagain\types.h
+	<stdbool.h>
+
+1649752920 source:c:\users\rasol\desktop\projetclashagain\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1649752920 c:\users\rasol\desktop\projetclashagain\masdl.h
+	"clashagain.h"
+
+1649752920 source:c:\users\rasol\desktop\projetclashagain\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1649754136 source:c:\users\rasol\desktop\projetclashagain\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1649753710 source:c:\users\rasol\desktop\projetclashagain\types.c
+	<stdlib.h>
+	<stdio.h>
+	"types.h"
+
+1649754682 source:c:\users\rasol\desktop\projetclashagain\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1649759890 source:c:\users\rasol\desktop\projetclashagain\listedouble.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"listeDouble.h"
+
+1649759890 c:\users\rasol\desktop\projetclashagain\listedouble.h
+	<stdbool.h>
+	"types.h"
+	"utils.h"
+
+1648718668 c:\users\rasol\desktop\projetclashagain\utils.h
+	<stdbool.h>
+
+1648718522 source:c:\users\rasol\desktop\projetclashagain\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1649855342 source:d:\projetclashagain\listedouble.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"listeDouble.h"
+	"types.h"
+
+1649854670 d:\projetclashagain\listedouble.h
+	<stdbool.h>
+	"types.h"
+	"utils.h"
+
+1649861672 d:\projetclashagain\types.h
+	<stdbool.h>
+	"utils.h"
+
+1648718668 d:\projetclashagain\utils.h
+	<stdbool.h>
+
+1649857328 source:d:\projetclashagain\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 d:\projetclashagain\masdl.h
+	"clashagain.h"
+
+1649864704 d:\projetclashagain\clashagain.h
+	"zone.h"
+	"types.h"
+
+1649855626 d:\projetclashagain\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1649754136 d:\projetclashagain\piles.h
+	<stdbool.h>
+	"types.h"
+
+1649752920 source:d:\projetclashagain\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1649754136 source:d:\projetclashagain\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1649861672 source:d:\projetclashagain\types.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"types.h"
+
+1648718522 source:d:\projetclashagain\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1649862780 source:d:\projetclashagain\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1649864632 source:d:\projetclashagain\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1649776668 source:e:\projetclashagain\listedouble.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"listeDouble.h"
+
+1649759890 e:\projetclashagain\listedouble.h
+	<stdbool.h>
+	"types.h"
+	"utils.h"
+
+1649861672 e:\projetclashagain\types.h
+	<stdbool.h>
+	"utils.h"
+
+1648718668 e:\projetclashagain\utils.h
+	<stdbool.h>
+
+1649752920 source:e:\projetclashagain\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752922 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1649752920 e:\projetclashagain\masdl.h
+	"clashagain.h"
+
+1649949100 e:\projetclashagain\clashagain.h
+	"zone.h"
+	"types.h"
+
+1649855626 e:\projetclashagain\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1649754136 e:\projetclashagain\piles.h
+	<stdbool.h>
+	"types.h"
+
+1649754136 source:e:\projetclashagain\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1649874128 source:e:\projetclashagain\types.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"types.h"
+
+1648718522 source:e:\projetclashagain\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1649862780 source:e:\projetclashagain\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1649959792 source:e:\projetclashagain\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1649959736 source:e:\projetclashagain\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1650007765 source:c:\users\tiffa\onedrive\documents\projetclashagain_15_04\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007767 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007766 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650007765 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\masdl.h
+	"clashagain.h"
+
+1650007764 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\clashagain.h
+	"zone.h"
+	"types.h"
+
+1650007765 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1650007765 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\piles.h
+	<stdbool.h>
+	"types.h"
+
+1650007765 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\types.h
+	<stdbool.h>
+	"utils.h"
+
+1650007765 c:\users\tiffa\onedrive\documents\projetclashagain_15_04\utils.h
+	<stdbool.h>
+
+1650007765 source:c:\users\tiffa\onedrive\documents\projetclashagain_15_04\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1650007765 source:c:\users\tiffa\onedrive\documents\projetclashagain_15_04\types.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"types.h"
+
+1650007765 source:c:\users\tiffa\onedrive\documents\projetclashagain_15_04\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1650007765 source:c:\users\tiffa\onedrive\documents\projetclashagain_15_04\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1650009612 source:c:\users\tiffa\onedrive\documents\projetclashagain_15_04\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1650010253 source:c:\users\tiffa\onedrive\documents\projetclashagain_15_04\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1650979170 source:e:\projetclashagain_15_04\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04\clashagain.h
+	"zone.h"
+	"types.h"
+
+1650887576 e:\projetclashagain_15_04\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1650887576 e:\projetclashagain_15_04\piles.h
+	<stdbool.h>
+	"types.h"
+
+1650894714 e:\projetclashagain_15_04\types.h
+	<stdbool.h>
+	"utils.h"
+
+1650887576 e:\projetclashagain_15_04\utils.h
+	<stdbool.h>
+
+1650979602 source:e:\projetclashagain_15_04\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1650887576 e:\projetclashagain_15_04\masdl.h
+	"clashagain.h"
+
+1650887576 source:e:\projetclashagain_15_04\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1650887576 source:e:\projetclashagain_15_04\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1650962770 source:e:\projetclashagain_15_04\types.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"types.h"
+
+1650887576 source:e:\projetclashagain_15_04\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1650893054 source:e:\projetclashagain_15_04\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1650876712 source:c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873310 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873310 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873310 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873310 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873310 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873308 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873309 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650873307 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\clashagain.h
+	"zone.h"
+	"types.h"
+
+1650873307 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1650873307 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\piles.h
+	<stdbool.h>
+	"types.h"
+
+1650873307 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\types.h
+	<stdbool.h>
+	"utils.h"
+
+1650873307 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\utils.h
+	<stdbool.h>
+
+1650873307 source:c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1650873307 c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\masdl.h
+	"clashagain.h"
+
+1650873307 source:c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1650873307 source:c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\types.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"types.h"
+
+1650873307 source:c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1650873307 source:c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1650875014 source:c:\users\tiffa\onedrive\bureau\projetclashagain_15_04 (2)\projetclashagain_15_04\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1650887575 source:c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\masdl.h
+	"clashagain.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\clashagain.h
+	"zone.h"
+	"types.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\piles.h
+	<stdbool.h>
+	"types.h"
+
+1650894712 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\types.h
+	<stdbool.h>
+	"utils.h"
+
+1650887575 c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\utils.h
+	<stdbool.h>
+
+1650887575 source:c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1650894646 source:c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\types.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"types.h"
+
+1650887575 source:c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1650893052 source:c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1650895552 source:c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1650895323 source:c:\users\tiffa\onedrive\bureau\code block\projetclashagain_25_04\projetclashagain_15_04\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1650979602 source:e:\projetclashagain_15_04 - copie\main.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\masdl.h
+	"clashagain.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\clashagain.h
+	"zone.h"
+	"types.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\piles.h
+	<stdbool.h>
+	"types.h"
+
+1650894714 e:\projetclashagain_15_04 - copie\types.h
+	<stdbool.h>
+	"utils.h"
+
+1650887576 e:\projetclashagain_15_04 - copie\utils.h
+	<stdbool.h>
+
+1650887576 source:e:\projetclashagain_15_04 - copie\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1650887576 source:e:\projetclashagain_15_04 - copie\piles.c
+	<stdlib.h>
+	<stdio.h>
+	"piles.h"
+
+1650887576 source:e:\projetclashagain_15_04 - copie\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1650893054 source:e:\projetclashagain_15_04 - copie\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1650982806 source:e:\projetclashagain_15_04 - copie\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1650982234 source:e:\projetclashagain_15_04 - copie\types.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"types.h"
+
+1650887576 source:e:\projetclashagain_15_04 - copie - copie\masdl.c
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887578 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\masdl.h
+	"clashagain.h"
+
+1651165806 e:\projetclashagain_15_04 - copie - copie\clashagain.h
+	"zone.h"
+	"types.h"
+
+1651165920 e:\projetclashagain_15_04 - copie - copie\zone.h
+	<stdbool.h>
+	"piles.h"
+
+1650887576 e:\projetclashagain_15_04 - copie - copie\listedouble.h
+	<stdbool.h>
+	"types.h"
+	"utils.h"
+
+1651046438 e:\projetclashagain_15_04 - copie - copie\types.h
+	<stdbool.h>
+	"utils.h"
+
+1651046278 e:\projetclashagain_15_04 - copie - copie\utils.h
+	<stdbool.h>
+
+1651062584 source:e:\projetclashagain_15_04 - copie - copie\types.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"types.h"
+
+1650887576 source:e:\projetclashagain_15_04 - copie - copie\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1651069066 source:e:\projetclashagain_15_04 - copie - copie\zone.c
+	"zone.h"
+	"types.h"
+	"clashagain.h"
+
+1651047134 e:\projetclashagain_15_04 - copie - copie\piles.h
+	<stdbool.h>
+	"types.h"
+	"utils.h"
+
+1651165428 source:e:\projetclashagain_15_04 - copie - copie\main.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL.h"
+	"maSDL.h"
+	"clashagain.h"
+	"types.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1651165494 source:e:\projetclashagain_15_04 - copie - copie\clashagain.c
+	"SDL.h"
+	"clashagain.h"
+	<stdio.h>
+	<stdlib.h>
+	"zone.h"
+	"types.h"
+
+1651051804 source:e:\projetclashagain_15_04 - copie - copie\piles.c
+	<stdio.h>
+	<stdlib.h>
+	"piles.h"
+	"types.h"
+	"utils.h"
+

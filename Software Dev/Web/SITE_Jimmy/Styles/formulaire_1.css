@@ -1,0 +1,82 @@
+fieldset:nth-of-type(3) > li /* Selecteur pseudo class en plus d'être fils*/
+{
+	text-align : center
+}
+fieldset:first-of-type /*“structural pseudo-class”*/
+{
+  background-color: rgb(224,207,224) ;
+}
+fieldset:nth-of-type(2) 
+{
+  background-color: rgb(190,210,229) ;
+}
+fieldset:nth-of-type(3)
+{
+   background-color: rgb(209,207,221) ;
+}
+fieldset:nth-of-type(4)
+{
+  background-color: rgb(200,232,221) ;
+}
+
+fieldset:nth-of-type(5)
+{
+  background-color: rgb(212,230,163) ;
+}
+div:last-of-type 
+{
+  text-align: center ;
+}
+table,th,tr,td /* On revient ensuite à des selecteurs basique d'éléments HTML*/
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th
+{
+  text-align:center;
+  border-color: blue;
+  border-width: 2px
+}
+strong
+{
+  font-style : italic ;
+}
+ul {
+list-style:none;
+}
+
+li 
+{
+  list-style:none;
+}
+
+fieldset
+{
+  border-width: medium
+}
+
+legend 
+{
+    background-color: rgb(244,235,134) ;
+    color: black;
+    width: 100% ;
+    font-style : italic ;
+    text-align: center;   
+    font-size: 17px ;
+    border: solid;
+    text-transform: uppercase;
+}
+
+#Saboteur1 {  /* A partir d'ici nous avons des selecteurs id afin de modifier les différents box*/
+  border: blue 2px solid;
+}
+#Cluedo1 {
+  border: blue 2px solid;
+}
+#Citadelle1 {
+  border: blue 2px solid;
+}
+#The_Mind{
+  border: blue 2px solid ;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0"encoding="UTF-8"?>
+<!DOCTYPE game_selection SYSTEM "societygame.dtd">
+<jeu>
+	<description>
+		<title>Cluedo</title>
+		<subtitle>Presentation du jeu: Cluedo </subtitle>
+		<illustration>
+			<img src = "Cluedo.jpg" alt ="Cluedo" />
+		</illustration>
+		<rating>"5"</rating>
+		<time> hour = "1" minutes = "0" secondes = "0"</time>
+		<gender>strategy</gender>
+		<playerssnumber> min = "2" max = "6" </playerssnumber>
+	</description>
+	<Statistique>
+		<fabricant>Hasbro/fabricant>
+		<price>25 euros</price>
+	</statistique>
+	<rules>
+Based on the popular board game, this comedy begins at a dinner party hosted by Mr. Boddy (Lee Ving),
+where he admits to blackmailing his visitors. These guests, who have been given aliases, are Mrs. Peacock (Eileen Brennan),
+Miss Scarlet (Lesley Ann Warren), Mr. Green (Michael McKean), professor Plum (Christopher Lloyd), Mrs. White (Madeline Kahn)
+and Col. Mustard (Martin Mull). When Boddy turns up murdered, all are suspects,
+and together they try to figure out who is the killer.
+	</rules>
+	<testimony>This game has really been a heart stroke</testimony>
+</jeu>

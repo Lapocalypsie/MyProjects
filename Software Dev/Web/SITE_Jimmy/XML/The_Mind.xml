@@ -1,0 +1,25 @@
+<?xml version="1.0"encoding="UTF-8"?>
+<!DOCTYPE game_selection SYSTEM "societygame.dtd">
+<jeu>
+	<description>
+		<title>Cluedo</title>
+		<subtitle>Presentation du jeu: The Mind </subtitle>
+		<illustration>
+			<img src = "The_Mind.jpg" alt ="The Mind" />
+		</illustration>
+		<rating>"4"</rating>
+		<time> hour = "0" minutes = "15" secondes = "0"</time>
+		<gender>strategy</gender>
+		<playerssnumber> min = "2" max = "4" </playerssnumber>
+	</description>
+	<Statistique>
+		<fabricant>Nürnberger-Spielkarten-Verlag</fabricant>
+		<price>11 euros</price>
+	</statistique>
+	<rules>
+The Mind is more than just a game. It's an experiment, a journey, 
+a team experience in which you can't exchange information, 
+yet will become one to defeat all the levels of the game.
+	</rules>
+	<testimony>This game has really been a heart stroke</testimony>
+</jeu>

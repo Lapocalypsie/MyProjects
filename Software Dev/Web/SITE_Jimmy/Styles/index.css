@@ -1,0 +1,22 @@
+h1 /* Suivant ce sont des sélecteurs d'éléments HTLM*/
+{
+  text-align: center;
+}
+img 
+{
+	width: 600px;
+	height: 600px;
+	max-width: 100%;
+	height: auto;
+}
+p
+{
+  font-size: 20px
+}
+
+.img_middle{ /* Ici nous avons un selecteur d'éléments class qui permet de positionner les images dans la page index*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	width: 25em ;
+}

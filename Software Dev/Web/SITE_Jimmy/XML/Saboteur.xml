@@ -1,0 +1,28 @@
+<?xml version="1.0"encoding="UTF-8"?>
+<!DOCTYPE game_selection SYSTEM "societygame.dtd">
+<jeu>
+	<description>
+		<title>Notre séléction de jeux de société</title> 
+		<subtitle>Presentation du jeu: Le saboteur</subtitle>
+		<illustration>
+		<img src = "saboteur.jpg" alt ="saboteur" />
+		</illustration>
+		<rating>5</rating>
+		<time> hour = "0" minutes = "20" secondes = "0"</time>
+		<gender>strategy</gender>
+		<playerssnumber> min = "3" max = "10" </playerssnumber>
+	</description>
+	<Statistique>
+		<fabricant>Giga mc</fabricant>
+		<price>13 euros</price>
+	</statistique>
+	<rules>
+Nothing makes the heart of a dwarf race quite like a nice shiny gold nugget. 
+As one of these intrepid folk, you naturally want to collect as much of the yellow stuff as you can.
+But are you a gold digger… or a saboteur?
+The players are dwarves-either gold miners working their tunnels ever-deeper into the mountains in search of treasure, or saboteurs trying to put obstacles in the miners' path.
+The members of each group should work together, but often they can only guess who their allies are! If the gold miners can make a path to the treasure, they are rewarded with nuggets of gold while the saboteurs leave empty-handed.
+If the gold miners fail, it is the saboteurs who reap the reward! But, the identity of each dwarf is not revealed until the gold is split up. After three rounds, the dwarf with the most nuggets wins!
+	</rules>
+	<testimony>Ce jeu a été un coup de coeur, vraiment très bien.</testimony>
+</jeu>

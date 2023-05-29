@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  <head>
+    <title>Index</title>
+    <meta http-equiv = "Content-Type"
+            content = "text/html; charset=utf-8"/>
+	<script type="application/javascript" src="Javascript/index.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" title="index"
+          href="Styles/index.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" title="default"
+          href="Styles/general.css"/>
+	<link rel="alternate stylesheet" type="text/css" media="screen" title="alternative_style"
+          href="../../Styles/alternative_style.css"/>
+  </head>
+  <body onload="displayHour()">
+    <h1>Welcome to Jimmy's Website</h1>
+	<div>	
+		<p> This Website has been made for the 2021 Web class, here we are displaying things that we have learned during the semester while still enjoying the freedom to choose the topic we like.
+	For myself, I have choosen the theme of society game and have made only for you my selection of the my favorite society game, I hope you will enjoy visiting the differents pages made. 
+	if you do have any questions or suggestion to give, feel free to send me a email at: <a href="mailto:jimmy.rasolosoa@etu.univ-poitiers.fr" onclick="inf(this)"> jimmy.rasolosoa@etu.univ-poitiers.fr</a>
+	Jimmy 
+		</p>
+	</div>
+	<div>
+		<a href="Content/Miscellaneous/sitemap.xhtml"><img src="Images/map.jpg" alt="image_map"/>Vers le site map</a>
+		<a href="Content/Miscellaneous/synoptic.xhtml"><img src="Images/directions.jpg" alt="image_direction"/>Vers le tableau synoptic</a>
+	</div>
+	<div>
+	<br/>
+		<img class ="img_middle" id ="img" ondblclick ="next_img()" src="Images/Citadelle.jpg" alt="Citadelle"/><br/>
+		<input 	id="date" type="text" value="L'heure ne fonctionne pas :)" size="40"/>
+      <!-- Lorsqu'on appelle une fonction javascript avec le paramètre
+      this, celui-ci représente l'objet sur lequel est branchée la
+      fonction. Dans l'exemple ci-dessus, le "this" fait référence à
+      l'objet javascript représentant l'élément <img /> -->
+    </div>
+  </body>
+</html>

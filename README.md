@@ -11,6 +11,14 @@ It includes Excel files, R project, and a Database project realized with oracle,
 
 There aren't all the projects I have realized but the most significant and those that can display my programming skills. 
 
+Here are some links of my projects that I deployed : 
+
+- Simplepedia : An application that allow to search a book title and modify it's content or add a content locally. 
+https://simplepedia-project.vercel.app/articles
+
+- MealHow : A class project, this is for the Middlebury student that gives real time update about the business of a dining hall and allowing student to give insights about how busy a dining hall is. 
+https://simplepedia-project.vercel.app/articles
+
 
 Management & Marketing: 
 

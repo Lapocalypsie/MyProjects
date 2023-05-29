@@ -19,7 +19,7 @@ https://simplepedia-project.vercel.app/articles
 - MealHow : A class project, this is for the Middlebury student that gives real time update about the business of a dining hall and allowing student to give insights about how busy a dining hall is. 
 https://simplepedia-project.vercel.app/articles
 
-- Expense Tracker : A simple application that allow to enter and filter expenses depending on a year. 
+- Expense Tracker : A simple application that allow to enter and filter expenses depending on a year. Still under development and some functionnality such as change title is not yet operational.
 https://expense-project.onrender.com/
 
 Management & Marketing: 
